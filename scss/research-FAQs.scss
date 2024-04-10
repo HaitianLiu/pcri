@@ -1,0 +1,5 @@
+@import './_navbar.scss', './_footer.scss', './_utils.scss';
+
+.btn--expand[aria-expanded="true"] {
+    display: none;
+}

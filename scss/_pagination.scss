@@ -1,0 +1,21 @@
+.page__item {
+    width: 56px;
+    text-align: center;
+}
+
+#btn-prev,
+#btn-next {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: var(--bs-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.1;
+}

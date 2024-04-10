@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PCRI - The Private Capital Research Institute</title>
+    <link rel="icon" href="./assets/head/images/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="https://kit.fontawesome.com/71502b3f5e.js" crossorigin="anonymous"></script>
+    <script type="module" src="../../js/navbar.js"></script>
+    <script type="module" src="../../js/footer.js"></script>
+    <script type="module" src="./js/home.js"></script>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary z-3">
+        <div class="navbar__container container d-flex">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/head/images/pcri_logo.jpg" alt="Logo" width="120"
+                    class="d-inline-block align-text-top">
+            </a>
+            <ul class="nav__item-list d-none d-lg-flex nav justify-content-end">
+                <!-- home item -->
+                <li class="nav__item ms-5 nav-item ">
+                    <div class="nav__item-label nav-item d-flex align-items-center justify-content-center">
+                        <a href="./index.html"
+                            class="m-0 pe-2 text fs-5 fw-semibold text-primary text-decoration-none">Home</a>
+                    </div>
+                </li>
+
+                <!-- about item -->
+                <li class="nav__item ms-5 nav-item ">
+                    <div class="nav__item-label nav-item d-flex align-items-center justify-content-center">
+                        <p class="m-0 pe-2 text fs-5 fw-semibold text-primary">About</p>
+                        <i class="fa-solid fa-caret-down text-primary"></i>
+                    </div>
+
+                    <div class="row gx-4 nav__mega-menu">
+                        <ul class="col-6 list-unstyled">
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/about/overview.html">Overview</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/about/supporters.html">Supporters</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/about/advisory-committee.html">Advisory
+                                    committee</a>
+                            </li>
+                        </ul>
+                        <ul class="col-6 list-unstyled">
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;"
+                                    href="./pages/about/academic-advisory-board.html">Academic
+                                    advisory board</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/about/people.html">People</a>
+                            </li>
+                            <li class="nav-item"><a class="fs-6 fw-semibold text-primary" style="text-decoration: none;"
+                                    href="./pages/about/new-gp.html">GP Participation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- news item -->
+                <li class="nav__item ms-5 nav-item ">
+                    <div class="nav__item-label nav-item d-flex align-items-center justify-content-center">
+                        <p class="m-0 pe-2 text fs-5 fw-semibold text-primary">News</p>
+                        <i class="fa-solid fa-caret-down text-primary"></i>
+                    </div>
+                    <div class="row gx-4 nav__mega-menu--news">
+                        <ul class="col-12 list-unstyled">
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/news/news.html">In the news</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/news/events.html">Events</a>
+                            </li>
+                            <li class="nav-item mb"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/news/conferences.html">Conferences</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- resource item -->
+                <li class="nav__item ms-5 nav-item ">
+                    <div class="nav__item-label nav-item d-flex align-items-center justify-content-center">
+                        <p class="m-0 pe-2 text fs-5 fw-semibold text-primary">Research</p>
+                        <i class="fa-solid fa-caret-down text-primary"></i>
+                    </div>
+
+                    <div class="row gx-4 nav__mega-menu">
+                        <ul class="col-6 list-unstyled">
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/overview.html">Overview</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./assets/research/pdf/call_f_proposals.pdf"
+                                    target="_blank">Call
+                                    for
+                                    proposals</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;"
+                                    href="./pages/research/predocRA.html">Pre-doctoral</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/current.html">PCRI
+                                    research</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/COI-documents.html">Research
+                                    for COI
+                                    document</a>
+                            </li>
+                            <li class="nav-item"><a class="fs-6 fw-semibold text-primary" style="text-decoration: none;"
+                                    href="./pages/research/YNOS.html">Indian
+                                    start-up database
+                                    from
+                                    YNOS</a>
+                            </li>
+                        </ul>
+                        <ul class="col-6 list-unstyled">
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/patent.html">Patent
+                                    database</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/earlyipo.html">Early
+                                    IPO database</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/FAQs.html">PCRI
+                                    research FAQs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/data.html">Data
+                                    summary</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/library.html">Library</a>
+                            </li>
+                            <li class="nav-item mb-2"><a class="fs-6 fw-semibold text-primary"
+                                    style="text-decoration: none;" href="./pages/research/apply.html">How to
+                                    apply to PCRI</a>
+                            </li>
+                            <li class="nav-item"><a class="fs-6 fw-semibold text-primary" style="text-decoration: none;"
+                                    href="./assets/research/pdf/EXTERNAL_PCRI_MANUAL Version 2.5 UPDATE.pdf"
+                                    target="_blank">Variables/Data
+                                    user manual</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler d-block d-lg-none" style="outline: none; box-shadow: none;" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fs-6"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fw-semibold text-primary" id="offcanvasNavbarLabel">PCRI RESEARCH</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="flex: 1;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary fw-semibold" aria-current="page"
+                                href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-primary fw-semibold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/about/overview.html">Overview</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/about/supporters.html">Supporters</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/about/advisory-committee.html">Academic
+                                        committee</a></li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/about/academic-advisory-board.html">Academic advisory
+                                        board</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/about/people.html">People</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary" href="./pages/about/new-gp.html">GP
+                                        Participation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-primary fw-semibold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li>
+                                    <a class="dropdown-item text-primary" href="./pages/news/news.html">In the news</a>
+                                    <a class="dropdown-item text-primary" href="./pages/news/events.html">Events</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/news/conferences.html">Conferences</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-primary fw-semibold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Research
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/research/overview.html">Overview</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./assets/research/pdf/call_f_proposals.pdf" target="_blank">Call for
+                                        proposals</a></li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/research/predocRA.html">Pre-doctoral</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/current.html">PCRI
+                                        research</a></li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/research/COI-documents.html">Research
+                                        for COI document</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/YNOS.html">Indian
+                                        start-up
+                                        database from
+                                        YNOS</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/patent.html">Patent
+                                        database</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/earlyipo.html">Early
+                                        IPO
+                                        database</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/FAQs.html">PCRI
+                                        research
+                                        FAQs</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/data.html">Data
+                                        summary</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./pages/research/library.html">Library</a></li>
+                                <li><a class="dropdown-item text-primary" href="./pages/research/apply.html">How
+                                        to apply to
+                                        PCRI</a></li>
+                                <li><a class="dropdown-item text-primary"
+                                        href="./assets/research/pdf/EXTERNAL_PCRI_MANUAL Version 2.5 UPDATE.pdf"
+                                        target="_blank">Variables/Data user manual</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero slider -->
+    <article>
+        <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <div class=" hero__image-wrapper">
+                        <img src="./assets/head/images/silder/uc-wallpaper2.jpg" alt="...">
+                    </div>
+                    <div class="hero__caption-wrapper container carousel-caption">
+                        <div class="hero__caption">
+                            <h1>First slide label</h1>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="hero__image-wrapper">
+                        <img src="./assets/head/images/silder/wp1915248.jpg" alt="...">
+                    </div>
+                    <div class="hero__caption-wrapper container carousel-caption">
+                        <div class="hero__caption">
+                            <h1>Second slide label</h1>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="hero__image-wrapper">
+                        <img src="./assets/head/images/silder/yale-university-pictures-74p0n1txmemswj9r.jpg" alt="...">
+                    </div>
+                    <div class="hero__caption-wrapper container carousel-caption">
+                        <div class="hero__caption">
+                            <h1>Third slide label</h1>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="hero__control-btn carousel-control-prev" type="button"
+                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="hero__control-btn carousel-control-next" type="button"
+                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </article>
+
+    <div class="content container mt-5">
+        <div class="row">
+            <!-- News side -->
+            <div class="col-12 col-lg-7 news__wrapper">
+                <h2>Latest News</h2>
+                <ul id="news-list" class="list-group list-group-flush">
+                </ul>
+                <a href="./pages/news/news.html" class="btn border-0 px-0 fw-semibold">
+                    <div class="d-flex align-items-center ">
+                        <span class="hover--underline">More news</span>
+                        <i class="fa-solid fa-arrow-right ps-2 text-small"></i>
+                    </div>
+                </a>
+
+                <h2 class="mt-5">Schedule</h2>
+                <div id="carouselExampleIndicators" class="carousel slide mt-4">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/news/images/gvs-2015/GSVApril104.jpg" class="d-block w-100"
+                                alt="GSVApril104">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/news/images/gvs-2015/GSVApril125.jpg" class="d-block w-100"
+                                alt="GSVApril125">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/news/images/gvs-2015/GSVApril116.jpg" class="d-block w-100"
+                                alt="GSVApril116">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/news/images/gvs-2015/GSVApril119.jpg" class="d-block w-100"
+                                alt="GSVApril119">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/news/images/gvs-2015/GSVApril127.jpg" class="d-block w-100"
+                                alt="GSVApril127">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/news/images/gvs-2015/GSVApril107.jpg" class="d-block w-100"
+                                alt="GSVApril107">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/news/images/gvs-2015/GSVApril129.jpg" class="d-block w-100"
+                                alt="GSVApril129">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="mt-2">Find out more <a href="./pages/news/calendar.html"
+                        class="text-primary fw-semibold">here</a></p>
+            </div>
+            <!-- Event side -->
+            <div class="col-12 col-lg-5">
+                <h2>Events</h2>
+                <ul id="events-list" class="event__wrapper mt-4 list-unstyled">
+                </ul>
+                <div class="card mt-5">
+                    <iframe class="card-img-top" height="320"
+                        src="https://www.youtube.com/embed/V6DiAfEwPUw?si=9c-jdPPDLfSgrcH9&autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="card-body">
+                        <p class="card-text">IDEA Webinar | The Private Capital Research Institute</p>
+                    </div>
+                    <a href="./pages/about/overview.html" class="btn border-0 mt-3 fw-semibold">
+                        <div class="d-flex align-items-center ">
+                            <span class="hover--underline">More videos</span>
+                            <i class="fa-solid fa-arrow-right ps-2 text-small"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer__wrapper container-fluid d-flex align-items-center justify-content-center mt-5 px-md-5">
+            <div class="row container-fluid d-flex mt-2 mt-lg-5 px-md-5">
+                <div class="col-12 d-none d-sm-flex col-lg-4 d-lg-block align-items-sm-center px-5">
+                    <a href="#">
+                        <img width="100px" src="./assets/head/images/pcri_logo.jpg" alt="logo" class="img-fluid">
+                    </a>
+                    <p class="w-75 ms-5 w-lg-50 ms-lg-0 mt-3 text-light" style="font-size: 14px;">The Private Capital
+                        Research
+                        Institute is a
+                        not-for-profit
+                        501(c)(3) corporation formed to further the understanding of private capital</p>
+                </div>
+                <div class="col-8 d-lg-flex d-none">
+                    <div>
+                        <h6 class="text-light mb-4 fw-bold">ABOUT</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/about/overview.html">Overview</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/about/supporters.html">Supporter</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/about/advisory-committee.html">Advisory
+                                    Committee</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/about/academic-advisory-board.html">Academic
+                                    Advisory Board</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/about/people.html">People</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/about/new-gp.html">GP Participation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mx-5">
+                        <h6 class="text-light mb-4 fw-bold">RESEARCH</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/research/overview.html">Overview</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./assets/research/pdf/call_f_proposals.pdf" target="_blank">Call for
+                                    proposals</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/research/current.html">PCRI Research</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/research/FAQs.html">PCRI Research FAQs</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/research/library.html">Library</a>
+                            </li>
+                            <li class="mb-3 hover--underline-light" style="font-size: 14px;"><a
+                                    class="text-light text-decoration-none" style="font-size: 14px;"
+                                    href="./pages/research/apply.html">How to apply to PCRI</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div style="flex: 1;">
+                        <h6 class="text-light mb-4 fw-bold">PARTNERS &amp; SPONSORS</h6>
+                        <div class="d-flex flex-wrap">
+                            <a target="_blank" href="https://www.kauffman.org"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/partners-and-sponsors-1.gif" alt="partner">
+                            </a>
+                            <a target="_blank" href="https://www.unquote.com"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/unquote.jpg" alt="partner">
+                            </a>
+                            <a target="_blank" href="https://www.globalprivatecapital.org"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/EMPEA.png" alt="partner">
+                            </a>
+                            <a target="_blank"
+                                href="https://www.spglobal.com/marketintelligence/en/mi/products/ilevel.html"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/ilevel.png" alt=" partner">
+                            </a>
+                            <a target="_blank" href="https://nyppex.com/"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/NYPPEX.png" alt="partner">
+                            </a>
+                            <a target="_blank" href="https://www.thomsonreuters.com/en.html"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/thomson-reuters.jpg" alt="partner">
+                            </a>
+                            <a target="_blank"
+                                href="http://hcd.ucdavis.edu/faculty/webpages/kenney/misc/Firm_IPO_Database_Guide.pdf"
+                                class="support__image-wrapper me-2 mb-4 p-2 bg-light">
+                                <img src="./assets/about/images/partners/Kenney-Patton.jpg" alt="partner">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-light text-center mt-4 text--small">© The Private Capital Research Institute. All Rights
+                    Reserved.
+                    PCRI |
+                    175 North
+                    Harvard Street,
+                    Boston, MA 02134 | info@pcrinstitute.org</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Import bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

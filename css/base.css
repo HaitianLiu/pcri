@@ -1,0 +1,34 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --bs-body-font-family: "Montserrat", sans-serif;
+    --font-weight-light: 200;
+    --font-weight-regular: 400;
+    --font-weight-bold: 600;
+    --font-size-small: 1.833rem;
+    --font-size-body: 1rem;
+    --font-size-h6: 1.2rem;
+    --font-size-h3: 2.074rem;
+    --font-size-h1: 2.986rem;
+    --color-primary: #00104D;
+    --color-secondary: #363E4B;
+    --color-gray: #B6BBC4;
+
+
+}
+
+:root,
+[data-bs-theme=light] {
+    --bs-primary: #00104D;
+    --bs-secondary: #363E4B;
+    --bs-primary-rgb: 0, 16, 77;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1rem;
+    box-sizing: border-box;
+}

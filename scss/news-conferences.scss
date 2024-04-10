@@ -1,0 +1,12 @@
+@import './_navbar.scss', './_footer.scss', './_utils.scss';
+
+.carousel__description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    background-color: #003262;
+    text-align: left;
+}

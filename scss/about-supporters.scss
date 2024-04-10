@@ -1,0 +1,14 @@
+@import './_navbar.scss', './_footer.scss', './_utils.scss';
+
+.supporters__image-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 56px;
+    width: auto;
+    padding: 0;
+    margin: 16px 16px;
+
+    &>img {
+        width: auto;
+        height: 100%;
+    }
+}
