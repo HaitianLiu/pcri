@@ -32,14 +32,16 @@ function renderEvents() {
         out += `
         <li class="my-4 col-12 col-md-6 col-lg-4">
             <div class="event-card mb-4">
-                <div class="event-card__image">
-                    <image src="${getUrl(item.image)}" alt="event-image">
-                </div>
-                <p class="hover--underline mt-2 px-2 py-2" style="flex: 1;"><a
-                        class="fw-semibold text-decoration-none text-primary"
-                        href="${getUrl(item.url)}"
-                        target="_blank">${item.title}</a>
-                </p>
+                <a href="${getUrl(item.url)}" class="text-decoration-none" target="_blank">
+                    <div class="event-card__image">
+                        <image src="${getUrl(item.image)}" alt="event-image">
+                    </div>
+                    <p class="hover--underline mt-2 px-2 py-2" style="flex: 1;"><a
+                            class="fw-semibold text-decoration-none text-primary"
+                            href="${getUrl(item.url)}"
+                            target="_blank">${item.title}</a>
+                    </p>
+                </a>
                 <div class="event-date">
                     <p class="fw-semibold mb-1" style="font-size: 14px;">${new Date(item.date).toLocaleString('en-US', { month: "short", day: '2-digit' })}</p>
                     <p class="fw-bold mb-0">${new Date(item.date).getFullYear()}</p>

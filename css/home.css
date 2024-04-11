@@ -102,7 +102,7 @@
   height: -moz-fit-content;
   height: fit-content;
   background-color: #003262;
-  /*padding: 16px;*/
+  padding: 16px;
 }
 
 
@@ -219,7 +219,7 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0.75rem;
+  padding: 16px;
   text-align: left;
 }
 .hero__caption-wrapper > .hero__caption > h1 {
@@ -235,6 +235,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .hero__caption-wrapper > .hero__caption  {
+    padding: 8px;
+  }
   .hero__caption-wrapper > .hero__caption > h1 {
     font-size: 0.61rem;
   }

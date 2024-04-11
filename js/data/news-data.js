@@ -1,7 +1,7 @@
 export const NEWS_LIST = [
   {
-    date: "2017-01-01",
-    image: "/assets/news/images/news/sslogo.gif",
+    date: "2017-03-06",
+    image: "/assets/news/images/news/cover/a.jpg",
     title: "The PCRI and State Street's joint quarterly newsletter",
     url: "/assets/news/pdf/news/GX PEI 2016 Q4 Publication GXN-4214 Final.pdf"
   },

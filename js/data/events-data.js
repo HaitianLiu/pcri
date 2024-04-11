@@ -1,13 +1,13 @@
 export const EVENT_LIST = [
   {
-    date: "2023-10-05",
-    image: "/assets/news/images/gvs-2015/GSVApril103.jpg",
+    date: "2023-12-05",
+    image: "/assets/news/images/events/cover/231204.jpg",
     title: "HBS/Private Capital Project: When AI Meets PE (101)",
     url: "/assets/news/pdf/events/Summary When AI Meets PE (101) [79].pdf"
   },
   {
     date: "2023-06-23",
-    image: "/assets/news/images/gvs-2015/GSVApril104.jpg",
+    image: "/assets/news/images/events/cover/230622.jpg",
     title: "HBS/Private Capital Project: The Democratization of Private Equity",
     url: "/assets/news/pdf/events/Summary Democratization of PE final.pdf"
   },
