@@ -10,7 +10,7 @@ let maxPage = Math.ceil(EVENT_LIST.length / ITEM_PER_PAGE);
 // This function is used to process a URL and return a modified version of it
 function getUrl(url) {
     // If the URL is empty or doesn't start with "/", return the URL as is
-    if (!url?.startsWith("/")) {
+    if (!url || !url.startsWith("/")) {
         return url;
     }
 
@@ -29,8 +29,6 @@ function renderEvents() {
 
     // Loop through each event in the current page range
     EVENT_LIST.slice(beginGet, endGet + 1).forEach((item) => {
-        const utc = new Date(item.date)
-        const convertedDate = new Date(utc.getTime() + new Date().getTimezoneOffset() * 60000);
         out += `
         <li class="my-4 col-12 col-md-6 col-lg-4">
             <div class="event-card mb-4">
@@ -39,15 +37,15 @@ function renderEvents() {
                         <image src="${getUrl(item.image)}" alt="event-image">
                     </div>
                 </a>
+                    <p class="hover--underline mt-2 px-2 py-2" style="flex: 1;"><a
+                            class="fw-semibold text-decoration-none text-primary"
+                            href="${getUrl(item.url)}"
+                            target="_blank">${item.title}</a>
+                    </p>
                 
-                <p class="hover--underline mt-2 px-2 py-2" style="flex: 1;"><a
-                        class="fw-semibold text-decoration-none text-primary"
-                        href="${getUrl(item.url)}"
-                        target="_blank">${item.title}</a>
-                </p>
                 <div class="event-date">
-                    <p class="fw-semibold mb-1" style="font-size: 14px;">${convertedDate.toLocaleString('en-US', { month: "short", day: '2-digit' })}</p>
-                    <p class="fw-bold mb-0">${convertedDate.getFullYear()}</p>
+                    <p class="fw-semibold mb-1" style="font-size: 14px;">${new Date(item.date).toLocaleString('en-US', { month: "short", day: '2-digit' })}</p>
+                    <p class="fw-bold mb-0">${new Date(item.date).getFullYear()}</p>
                 </div>
             </div>
         </li>
