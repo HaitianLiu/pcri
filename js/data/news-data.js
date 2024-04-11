@@ -1,121 +1,235 @@
 export const NEWS_LIST = [
-  {
+    {
+      date: "2023-06-30",
+      image: "/assets/news/images/news/cover/2023Q2.png",
+      title: "State Street/PCRI Private Equity Insights Q2 2023",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q2 2023.pdf"
+    },
+    {
+      date: "2023-03-31",
+      image: "/assets/news/images/news/cover/2023Q1.png",
+      title: "State Street/PCRI Private Equity Insights Q1 2023",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2023 final.pdf"
+    },
+    {
+      date: "2022-12-31",
+      image: "/assets/news/images/news/cover/2022Q4.png",
+      title: "State Street/PCRI Private Equity Insights Q4 2022",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q4 2022 final.pdf"
+    },
+    {
+      date: "2022-09-30",
+      image: "/assets/news/images/news/cover/2022Q3.png",
+      title: "State Street/PCRI Private Equity Insights Q3 2022",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q3 2022.pdf"
+    },
+    {
+      date: "2022-06-30",
+      image: "/assets/news/images/news/cover/2022Q2.png",
+      title: "State Street/PCRI Private Equity Insights Q2 2022",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q2 2022.pdf"
+    },
+    {
+      date: "2022-08-31",
+      image: "/assets/news/images/news/cover/2022Special.png",
+      title: "PCRI/World Economic Forum: The Evolution of the Private Equity Industry: Returns, Relationships and Responsibility August 2022",
+      url: "/assets/news/pdf/news/state_street/WEF_Private_Equity_Industry_2022.pdf"
+    },
+    {
+      date: "2022-03-31",
+      image: "/assets/news/images/news/cover/2022Q1.png",
+      title: "State Street/PCRI Private Equity Insights Q1 2022",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2022 final.pdf"
+    },
+    {
+      date: "2021-12-31",
+      image: "/assets/news/images/news/cover/2021Q4.png",
+      title: "State Street/PCRI Private Equity Insights Q4 2021",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q4 2021 final.pdf"
+    },
+    {
+      date: "2021-09-30",
+      image: "/assets/news/images/news/cover/2021Q3.png",
+      title: "State Street/PCRI Private Equity Insights Q3 2021",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q3 2021.pdf"
+    },
+    {
+      date: "2021-06-30",
+      image: "/assets/news/images/news/cover/2021Q2.png",
+      title: "State Street/PCRI Private Equity Insights Q2 2021",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q2 2021.pdf"
+    },
+    {
+      date: "2021-03-31",
+      image: "/assets/news/images/news/cover/2021Q1.png",
+      title: "State Street/PCRI Private Equity Insights Q1 2021",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2021.pdf"
+    },
+    {
+      date: "2020-12-31",
+      image: "/assets/news/images/news/cover/2020Q4.png",
+      title: "State Street/PCRI Private Equity Insights Q4 2020",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q4 2020.pdf"
+    },
+    {
+      date: "2020-09-30",
+      image: "/assets/news/images/news/cover/2020Q3.png",
+      title: "State Street/PCRI Private Equity Insights Q3 2020",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q3 2020.pdf"
+    },
+    {
+      date: "2020-03-31",
+      image: "/assets/news/images/news/cover/2020Q1.png",
+      title: "State Street/PCRI Private Equity Insights Q1 2020",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2020.pdf"
+    },
+    {
+      date: "2019-12-31",
+      image: "/assets/news/images/news/cover/2019Q4.png",
+      title: "State Street/PCRI Private Equity Insights Q4 2019",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q4 2019.pdf"
+    },
+    {
+      date: "2019-09-30",
+      image: "/assets/news/images/news/cover/2019Q3.png",
+      title: "State Street/PCRI Private Equity Insights Q3 2019",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q3 2019.pdf"
+    },
+    {
+      date: "2019-06-30",
+      image: "/assets/news/images/news/cover/2019Q2.png",
+      title: "State Street/PCRI Private Equity Insights Q2 2019",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q2 2019.pdf"
+    },
+    {
+      date: "2019-03-31",
+      image: "/assets/news/images/news/cover/2019Q1.png",
+      title: "State Street/PCRI Private Equity Insights Q1 2019",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2019.pdf"
+    },
+    {
+      date: "2018-12-31",
+      image: "/assets/news/images/news/cover/2018Q4.png",
+      title: "State Street/PCRI Private Equity Insights Q4 2018",
+      url: "/assets/news/pdf/news/state_street/Private Equity Insights Q4 2018.pdf"
+    },
+    {
     date: "2017-03-06",
-    image: "/assets/news/images/news/cover/a.jpg",
+    image: "/assets/news/images/news/sslogo.gif",
     title: "The PCRI and State Street's joint quarterly newsletter",
     url: "/assets/news/pdf/news/GX PEI 2016 Q4 Publication GXN-4214 Final.pdf"
   },
   {
+    date: "2016-05-05",
+    image: "/assets/news/images/news/cover/assa2016.gif",
+    title: "At the 2016 American Economics Association Conference, The PCRI was invited to participate on a panel to discuss the challenges of collecting data in an opaque industry.",
+    url: "/assets/news/pdf/news/news_AEA_paper_1_12_16.pdf"
+  },
+  {
     date: "2016-04-14",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/20160414.png",
     title: "Podcast by Working Capital Review: Economics of Successful Partnerships, an Interview with Josh Lerner.",
     url: "https://workingcapitalreview.com/2016/04/podcast-economics-of-successful-partnerships-conversation-with-josh-lerner-harvard-business-school/"
   },
   {
-    date: "2015-09-01",
+    date: "2015-10-05",
     image: "/assets/news/images/news/sslogo.gif",
-    title: "Podcast Private Equity Insights",
+    title: "The PCRI offered its insights into the current state of the private capital industry in State Street's quarterly newsletter newsletter for its GX Private Equity Index.",
     url: "/assets/news/pdf/news/SSQ_Newsletter_2016.pdf"
   },
   {
-    date: "2016-01-01",
-    image: "/assets/news/images/news/sslogo.gif",
-    title: "The AEA May 2016 Papers and Proceedings",
-    url: "#"
-  },
-  {
     date: "2015-06-24",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/oyz.jpg",
     title: "OZY Interview with Dr. Josh Lerner on the State of Venture Capital",
     url: "https://www.ozy.com/pov/picking-venture-capitals-biggest-brain/60256"
   },
   {
     date: "2015-04-24",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/pcri.jpg",
     title: "Summary of PCRI Silicon Valley Conference",
     url: "/assets/news/pdf/news/SF_Summary.pdf"
   },
   {
     date: "2014-02-12",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/pcri.jpg",
     title: "Press Coverage of February 2014 PCRI New York event",
     url: "/assets/news/pdf/news/Yale_Club_Press_Coverage.pdf"
   },
   {
     date: "2013-09-16",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/pcri.jpg",
     title: "PCRI-Brookings Co-Hosted Conference in Rio de Janeiro, Brazil on the Future of Private Capital in Emerging Markets",
-    url: "#"
+    url: "/assets/news/pdf/news/Brazil_Summary.pdf"
   },
   {
     date: "2012-12-04",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/pcri.jpg",
     title: "PCRI Announces Strategic Partnership with AARM Corporation",
     url: "/assets/news/pdf/news/PCRI Partners with AARM.pdf"
   },
   {
-    date: "2012-08-01",
-    image: "/assets/news/images/news/sslogo.gif",
+    date: "2012-08-05",
+    image: "/assets/news/images/news/cover/20120801.jpeg",
     title: "PCRI Aims to Bring Sunshine to Private Equity and Venture Capital",
     url: "/assets/news/pdf/news/Bloomberg_brief.pdf"
   },
   {
     date: "2012-07-26",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/pcri.jpg",
     title: "PCRI Announces Strategic Partnership with Thomson Reuters and Unquote Data",
     url: "/assets/news/pdf/news/PCRI_Partners.pdf"
   },
   {
     date: "2012-04-16",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/20120416.jpeg",
     title: "Lerner's private equity group takes first steps in building database",
     url: "/pages/news/news-20120416.html"
   },
   {
     date: "2012-04-10",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "GPs sign on to private capital database",
     url: "/pages/news/news-20120410.html"
   },
   {
     date: "2012-04-05",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "GPs sign on to private capital database",
     url: "/pages/news/news-20120405.html"
   },
   {
     date: "2012-04-05",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "Buyout firms sign up to share data",
     url: "/pages/news/news-20120405-PEN.html"
   },
   {
     date: "2012-04-04",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "Private Capital Research Institute Signs Up 15 Top Firms To Its Database",
     url: "/pages/news/news-20120404-LBO.html"
   },
   {
     date: "2012-04-04",
-    image: "/assets/news/images/news/sslogo.gif",
+    image: "/assets/news/images/news/cover/pcri.jpg",
     title: "Leading Managers To Contribute Data to Effort To Advance Understanding Of Private Capital",
     url: "/pages/news/news-20120404.html"
   },
   {
-    date: "2012-01-01",
-    image: "/assets/news/images/news/sslogo.gif",
+    date: "2012-01-05",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "Can America Get Its Entrepreneurial Groove Back?",
     url: "/pages/news/news-20120201.html"
   },
   {
-    date: "2012-01-01",
-    image: "/assets/news/images/news/sslogo.gif",
+    date: "2012-01-05",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "Can America Get Its Entrepreneurial Groove Back?",
     url: "/pages/news/news-whitepaper.html"
   },
   {
-    date: "2012-01-01",
-    image: "/assets/news/images/news/sslogo.gif",
+    date: "2012-01-05",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "Private Equity SmartBrief",
     url: "/pages/news/news-pe-smartbrief.html"
   }
