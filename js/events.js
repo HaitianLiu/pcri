@@ -44,8 +44,8 @@ function renderEvents() {
                     </p>
                 
                 <div class="event-date">
-                    <p class="fw-semibold mb-1" style="font-size: 14px;">${new Date(item.date).toLocaleString('en-US', { month: "short", day: '2-digit', timeZone: 'UTC' })}</p>
-                    <p class="fw-bold mb-0">${new Date(item.date).getUTCFullYear()}</p>
+                    <p class="fw-bold mb-1">${new Date(item.date).toLocaleString('en-US', { month: "short", day: '2-digit', timeZone: 'UTC' })}</p>
+                    <p class="fw-semibold m-0" style="font-size: 14px;">${new Date(item.date).getUTCFullYear()}</p>
                 </div>
             </div>
         </li>
