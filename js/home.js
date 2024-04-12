@@ -27,12 +27,14 @@ function renderNews() {
                             href="${getUrl(item.url)}"
                             target="_blank">${item.title}</a>
                     </h6>
-                    <p class="mt-5 fw-light">${new Date(item.date).toLocaleString('en-US', { day: '2-digit', month: "long", year: "numeric"  })}</p>
+                    <p class="mt-5 fw-light">${new Date(item.date).toLocaleString('en-US', { day: '2-digit', month: "long", year: "numeric", timeZone: 'UTC'  })}</p>
                 </div>
                 <div class="d-block">
-                    <div class="news__image-wrapper">
-                        <img src="${getUrl(item.image)}" alt="news" class="img-fluid">
-                    </div>
+                    <a href="${getUrl(item.url)}" target="_blank">
+                        <div class="news__image-wrapper">
+                            <img src="${getUrl(item.image)}" alt="news" class="img-fluid">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -48,7 +50,7 @@ function renderEvents() {
         out += `
         <li class="d-flex mb-4">
             <div class="text-center border-end" style="width: 100px;">
-                <p class="mb-1 fw-bold">${new Date(item.date).toLocaleString('en-US', { month: "short", day: '2-digit' })}</p>
+                <p class="mb-1 fw-bold">${new Date(item.date).toLocaleString('en-US', { month: "short", day: '2-digit', timeZone: 'UTC' })}</p>
                 <p class="m-0 fw-semibold" style="font-size: 14px;">${new Date(item.date).getFullYear()}</p>
             </div>
             <p class="ps-3 hover--underline" style="flex: 1;">
