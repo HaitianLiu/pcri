@@ -16,7 +16,7 @@ function getUrl(url) {
 
 function renderNews() {
     let out = "";
-    NEWS_LIST.slice(0, 4).forEach((item) => {
+    NEWS_LIST.slice(0, 5).forEach((item) => {
         out += `
         <li class="list-group-item px-0">
         <div class="news__card card border-0">
