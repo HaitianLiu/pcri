@@ -1,7 +1,7 @@
 import {NEWS_LIST} from './data/news-data.js';
 
 // Define the number of news items to be displayed per page
-const ITEM_PER_PAGE = 15;
+const ITEM_PER_PAGE = 16;
 // Initialize the current page to 1
 let thisPage = 1;
 // Calculate the maximum number of pages based on the number of news items and items per page
@@ -26,7 +26,7 @@ function renderNews() {
 
     NEWS_LIST.slice(beginGet, endGet + 1).forEach((item) => {
         out += `
-        <li class="my-4 col-12 col-md-6 col-lg-4">
+        <li class="my-4 col-6 col-md-6 col-lg-3">
             <div class="news-card mb-4">
                 <a href="${getUrl(item.url)}" target="_blank">
                     <div class="news-card__image">

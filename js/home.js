@@ -21,13 +21,13 @@ function renderNews() {
         <li class="list-group-item px-0">
         <div class="news__card card border-0">
             <div class="card-body px-0 d-flex">
-                <div class="me-4" style="flex: 1;">
+                <div class="me-0" style="flex: 1;">
                     <h6 class="news__title card-title ">
                         <a class="fw-semibold text-primary"
                             href="${getUrl(item.url)}"
                             target="_blank">${item.title}</a>
                     </h6>
-                    <p class="mt-5 fw-light">${new Date(item.date).toLocaleString('en-US', { day: '2-digit', month: "long", year: "numeric", timeZone: 'UTC'  })}</p>
+                    <p class="mt-3 fw-light">${new Date(item.date).toLocaleString('en-US', { day: '2-digit', month: "long", year: "numeric", timeZone: 'UTC'  })}</p>
                 </div>
                 <div class="d-block">
                     <a href="${getUrl(item.url)}" target="_blank">

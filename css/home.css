@@ -162,7 +162,7 @@
   }
 }
 .news__card {
-  min-height: 180px;
+  min-height: 100px;
 }
 
 .news__title:hover {
@@ -179,7 +179,7 @@
 }
 
 .news__image-wrapper {
-  width: 140px;
+  width: 100px;
   aspect-ratio: 1/1;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

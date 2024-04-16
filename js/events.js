@@ -1,7 +1,7 @@
 import {EVENT_LIST} from './data/events-data.js';
 
 // Define the number of items to be displayed per page
-const ITEM_PER_PAGE = 15;
+const ITEM_PER_PAGE = 16;
 // Initialize the current page to 1
 let thisPage = 1;
 // Calculate the maximum number of pages based on the number of events and items per page
@@ -30,7 +30,7 @@ function renderEvents() {
     // Loop through each event in the current page range
     EVENT_LIST.slice(beginGet, endGet + 1).forEach((item) => {
         out += `
-        <li class="my-4 col-12 col-md-6 col-lg-4">
+        <li class="my-4 col-6 col-md-6 col-lg-3">
             <div class="event-card mb-4">
                 <a href="${getUrl(item.url)}" target="_blank">
                     <div class="event-card__image">
