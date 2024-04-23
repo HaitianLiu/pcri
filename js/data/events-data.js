@@ -6,6 +6,12 @@ export const EVENT_LIST = [
     url: "/assets/news/pdf/events/Summary When AI Meets PE (101) [79].pdf"
   },
   {
+    date: "2023-10-05",
+    image: "/assets/news/images/events/cover/231005.png",
+    title: "Chinese Private Markets Today",
+    url: "/pages/news/events-231024.html"
+  },
+  {
     date: "2023-06-23",
     image: "/assets/news/images/events/cover/230622.jpg",
     title: "HBS/Private Capital Project: The Democratization of Private Equity",

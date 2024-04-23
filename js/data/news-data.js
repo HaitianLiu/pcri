@@ -308,6 +308,12 @@ export const NEWS_LIST = [
   {
     date: "2012-01-05",
     image: "/assets/news/images/news/cover/news.jpg",
+    title: "Can America Get Its Entrepreneurial Groove Back?",
+    url: "/pages/news/news-whitepaper.html"
+  },
+  {
+    date: "2012-01-05",
+    image: "/assets/news/images/news/cover/news.jpg",
     title: "Private Equity SmartBrief",
     url: "/pages/news/news-pe-smartbrief.html"
   }
