@@ -115,10 +115,7 @@ class PCRIFooter extends HTMLElement {
                 </div>
                 <p class="text-light text-center mt-4 text--small">© The Private Capital Research Institute. All Rights
                     Reserved.
-                    PCRI |
-                    175 North
-                    Harvard Street,
-                    Boston, MA 02134 | info@pcrinstitute.org</p>
+                    PCRI  info@pcrinstitute.org</p>
             </div>
         </div>
     </footer>
