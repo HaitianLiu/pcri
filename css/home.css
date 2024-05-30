@@ -207,11 +207,16 @@
 .hero__caption-wrapper {
   position: absolute;
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate(0%, -40%);
-          transform: translate(0%, -40%);
+  left: 100%;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+  padding-right: 20px;
 }
+
 .hero__caption-wrapper > .hero__caption {
+  position: absolute;
+  left: 40%;
+
   background-color: #003262;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -235,15 +240,6 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .hero__caption-wrapper {
-    position: absolute;
-    top: 50%;
-    right: -50%;
-    left: 10%;
-    -webkit-transform: translate(0%, -40%);
-    transform: translate(0%, -40%);
-  }
-
   .hero__caption-wrapper > .hero__caption  {
     padding: 4px;
   }
