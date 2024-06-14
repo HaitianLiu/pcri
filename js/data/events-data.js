@@ -32,7 +32,7 @@ export const EVENT_LIST = [
   {
     date: "2022-12-14",
     image: "/assets/news/images/pcri.jpg",
-    title: "HBS/Private Capital Project/ITT Madras Webinar: The State of Indian Private Capital Industry",
+    title: "HBS/Private Capital Project/IIT Madras Webinar: The State of Indian Private Capital Industry",
     url: "/assets/news/pdf/events/Indian PE Summary FINAL.pdf"
   },
   {
