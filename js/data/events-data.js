@@ -1,5 +1,11 @@
 export const EVENT_LIST = [
   {
+    date: "2024-06-05",
+    image: "/assets/news/images/events/cover/240605.jpg",
+    title: "Venture Capital and Crypto-Currency Investing",
+    url: "/assets/news/pdf/events/Summary Crypto Final 06052024.pdf"
+  },
+  {
     date: "2023-12-05",
     image: "/assets/news/images/events/cover/231204.jpg",
     title: "HBS/Private Capital Project: When AI Meets PE (101)",
