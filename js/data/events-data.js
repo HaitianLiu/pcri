@@ -6,6 +6,12 @@ export const EVENT_LIST = [
     url: "/assets/news/pdf/events/Hi Tec Agenda Dec 19 2024 (version Sep 16 2024).pdf"
   },
   {
+    date: "2024-09-09",
+    image: "/assets/news/images/events/cover/240909.jpg",
+    title: "Private Capital through Political Cycles",
+    url: "/assets/news/pdf/events/Political Cycles Final Summary.pdf"
+  },
+  {
     date: "2024-06-05",
     image: "/assets/news/images/events/cover/240605.jpg",
     title: "Venture Capital and Crypto-Currency Investing",
