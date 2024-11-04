@@ -6,6 +6,12 @@ export const EVENT_LIST = [
     url: "/assets/news/pdf/events/Hi Tec Agenda Dec 19 2024 (version Sep 16 2024).pdf"
   },
   {
+    date: "2024-10-08",
+    image: "/assets/news/images/events/cover/241008.jpg",
+    title: "The Evolution of the Gulf Investor",
+    url: "/assets/news/pdf/events/The Evolution of the Gulf Investor Summary Final.pdf"
+  },
+  {
     date: "2024-09-09",
     image: "/assets/news/images/events/cover/240909.jpg",
     title: "Private Capital through Political Cycles",
