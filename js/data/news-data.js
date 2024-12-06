@@ -1,30 +1,54 @@
 export const NEWS_LIST = [
     {
-      date: "2023-09-01",
+        date: "2024-07-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q2 2024",
+        url: "/assets/news/pdf/news/2024/Private Equity Insights Q2 2024 7380958.1.1.GBL.pdf"
+    },
+    {
+        date: "2024-04-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q1 2024",
+        url: "/assets/news/pdf/news/2024/Private Equity Insights Q1 2024 6930053.1.1.GBL..pdf"
+    },
+    {
+        date: "2024-01-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q4 2023",
+        url: "/assets/news/pdf/news/2023/Private Equity Insights Q4 2023 6736093.1.1.GBL..pdf"
+    },
+    {
+        date: "2023-10-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q3 2023",
+        url: "/assets/news/pdf/news/2023/Private Equity Insights Q3 2023 6422455.1.1.GBL.pdf"
+    },
+    {
+      date: "2023-07-01",
       image: "/assets/news/images/news/sslogo.gif",
       title: "State Street/PCRI Private Equity Insights Q2 2023",
       url: "/assets/news/pdf/news/state_street/Private Equity Insights Q2 2023.pdf"
     },
     {
-      date: "2023-06-01",
+      date: "2023-04-01",
       image: "/assets/news/images/news/sslogo.gif",
       title: "State Street/PCRI Private Equity Insights Q1 2023",
       url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2023 final.pdf"
     },
     {
-      date: "2023-03-01",
+      date: "2023-01-01",
       image: "/assets/news/images/news/sslogo.gif",
       title: "State Street/PCRI Private Equity Insights Q4 2022",
       url: "/assets/news/pdf/news/state_street/Private Equity Insights Q4 2022 final.pdf"
     },
     {
-      date: "2022-12-01",
+      date: "2022-10-01",
       image: "/assets/news/images/news/sslogo.gif",
       title: "State Street/PCRI Private Equity Insights Q3 2022",
       url: "/assets/news/pdf/news/state_street/Private Equity Insights Q3 2022.pdf"
     },
     {
-      date: "2022-09-01",
+      date: "2022-07-01",
       image: "/assets/news/images/news/sslogo.gif",
       title: "State Street/PCRI Private Equity Insights Q2 2022",
       url: "/assets/news/pdf/news/state_street/Private Equity Insights Q2 2022.pdf"
@@ -36,7 +60,7 @@ export const NEWS_LIST = [
       url: "/assets/news/pdf/news/2022/WEF_Private_Equity_Industry_2022.pdf"
     },
     {
-      date: "2022-06-01",
+      date: "2022-04-01",
       image: "/assets/news/images/news/sslogo.gif",
       title: "State Street/PCRI Private Equity Insights Q1 2022",
       url: "/assets/news/pdf/news/state_street/Private Equity Insights Q1 2022 final.pdf"
