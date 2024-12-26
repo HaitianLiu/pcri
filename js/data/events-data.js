@@ -1,9 +1,9 @@
 export const EVENT_LIST = [
   {
     date: "2024-12-19",
-    image: "/assets/news/images/events/cover/241219.jpg",
-    title: "Harvard –TAU Venture Capital Meeting: Current state of the Israeli venture capital market evolution",
-    url: "/assets/news/pdf/events/Hi Tec Agenda Dec 19 2024 (version Sep 16 2024).pdf"
+    image: "/assets/news/images/events/2024/tau02_hero.JPG",
+    title: "PCRI –TAU VENTURE CAPITAL SUMMIT: The Evolution of Israeli Institutional VC Investment",
+    url: "/pages/news/events-241219.html"
   },
   {
     date: "2024-10-08",
