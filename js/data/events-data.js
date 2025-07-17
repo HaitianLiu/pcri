@@ -1,5 +1,11 @@
 export const EVENT_LIST = [
   {
+    date: "2025-06-26",
+    image: "/assets/news/images/events/cover/250626.jpg",
+    title: "Innovation, VC, and Federal Budgets",
+    url: "/assets/news/pdf/events/Innovation VC Federal Budget Summary final.pdf"
+  },
+  {
     date: "2024-12-19",
     image: "/assets/news/images/events/2024/tau02_hero.JPG",
     title: "PCRI –TAU VENTURE CAPITAL SUMMIT: The Evolution of Israeli Institutional VC Investment",
