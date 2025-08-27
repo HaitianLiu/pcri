@@ -1,5 +1,23 @@
 export const NEWS_LIST = [
     {
+        date: "2025-04-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q1 2025",
+        url: "/assets/news/pdf/news/2025/Private Capital Insights Q1 2025 8322533.1.1.GBL.pdf"
+    },
+    {
+        date: "2025-01-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q4 2024",
+        url: "/assets/news/pdf/news/2024/State Street Private Capital Insights 2024 Q4 8087189.1.1.GBL..pdf"
+    },
+    {
+        date: "2024-10-01",
+        image: "/assets/news/images/news/cover/state_street.jpg",
+        title: "State Street/PCRI Private Equity Insights Q3 2024",
+        url: "/assets/news/pdf/news/2024/Private Equity Insights Q3 2024 7632407.1.1.GBL.pdf"
+    },
+    {
         date: "2024-07-01",
         image: "/assets/news/images/news/cover/state_street.jpg",
         title: "State Street/PCRI Private Equity Insights Q2 2024",
