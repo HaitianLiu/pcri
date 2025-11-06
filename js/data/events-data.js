@@ -1,5 +1,11 @@
 export const EVENT_LIST = [
   {
+    date: "2025-09-22",
+    image: "/assets/news/images/events/cover/250922.jpg",
+    title: "The Future of the “Endowment Model”",
+    url: "/assets/news/pdf/events/EndowmentModelSummary_092025.pdf"
+  },
+  {
     date: "2025-06-26",
     image: "/assets/news/images/events/cover/250626.jpg",
     title: "Innovation, VC, and Federal Budgets",
