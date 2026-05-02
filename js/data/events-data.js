@@ -1,5 +1,11 @@
 export const EVENT_LIST = [
   {
+    date: "2026-02-26",
+    image: "/assets/news/images/events/cover/260226.jpg",
+    title: "Retail Investment in Private Markets",
+    url: "/assets/news/pdf/events/2026/RetailInvestmentSummary_022026.pdf"
+  },
+  {
     date: "2025-09-22",
     image: "/assets/news/images/events/cover/250922.jpg",
     title: "The Future of the “Endowment Model”",
